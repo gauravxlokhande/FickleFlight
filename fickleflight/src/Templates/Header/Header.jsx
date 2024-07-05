@@ -3,6 +3,7 @@ import FlickerFlightLogo from '../../assets/Images/Fickleflight Logo.png';
 import Notification from '../../assets/Images/Vector.png';
 import ProfilePicture from '../../assets/Images/profile picture.png';
 import { Link, Outlet } from 'react-router-dom';
+import './Header.scss'
 
 function Header() {
     let Options = ['RecentSearches', 'PrepareTrip', 'PlanTrips', 'Holidays', 'FooterForm'];

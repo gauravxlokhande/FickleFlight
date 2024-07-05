@@ -1,6 +1,6 @@
 import React from 'react'
 import duration from '../../assets/Images/Duration.png'
-
+import { memo } from "react";
 function RecentSearches() {
 
     let Flights = [
@@ -47,4 +47,4 @@ function RecentSearches() {
     )
 }
 
-export default RecentSearches
+export default memo(RecentSearches) 
