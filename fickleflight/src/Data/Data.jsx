@@ -52,12 +52,39 @@ let DataHolidays = [
             { BgImage: PalawanImage, Name: 'Swiss', Code: '6D5N', Cost: '$900' },
             { BgImage: SwitzerlandImage, Name: 'Boracay', Code: '4D11', Cost: '$699' },
             { BgImage: unsplash_5MV818tzxeo, Name: 'Palawan', Code: '5DH1', Cost: '$700' },
+
         ]
     }
 ];
 
 
 
+let FooterData = [
+    {
+        Heading: 'Company',
+        About: 'About Us',
+        News: 'News',
+        Career: 'Careers',
+        Howwork: 'How we work'
+    },
+    {
+        Heading: 'Support',
+        About: 'Account',
+        News: 'Support Center',
+        Career: 'FAQ',
+        Howwork: 'Accessibility'
+    },
+    {
+        Heading: 'More',
+        About: 'Covid Advisory',
+        News: 'Airline Fees',
+        Career: 'Tips',
+        Howwork: 'Quarantine Rules'
+    }
+]
 
 
-export { IconData, Destinations, DataHolidays };
+
+
+
+export { IconData, Destinations, DataHolidays, FooterData };

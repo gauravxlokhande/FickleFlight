@@ -12,7 +12,7 @@ export default function FooterForm() {
 
 function FooterCard() {
     return (
-        <div className="w-screen h-[80vh] bg-suscribe-image bg-cover flex items-center justify-center">
+        <div className="w-full h-[80vh] bg-suscribe-image bg-cover flex items-center justify-center">
             <div className="w-[75vh] h-[75vh] bg-[#F3F7Fb] flex flex-col items-center justify-center">
                 <div className='flex items-center justify-center flex-col'>
                     <h1 className='font-sans font-medium  text-[#1262AE] text-[19px]'>SUBSCRIBE TO OUR NEWSLETTER</h1>

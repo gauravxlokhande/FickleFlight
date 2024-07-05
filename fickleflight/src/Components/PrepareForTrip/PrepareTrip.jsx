@@ -14,7 +14,7 @@ export default function PrepareTrip() {
 function TripCard({ data }) {
     console.log(data);
     return (
-        <div className='w-full h-[17vh]'>
+        <div className='w-full h-[25vh]'>
             <div className='mr-[73px] ml-[60px]'>
                 <h1 className='text-[#CECECE] '>Prepare For Your trip</h1>
                 <div className=' flex flex-row justify-between'>
